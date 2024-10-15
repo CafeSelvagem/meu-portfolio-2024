@@ -1,0 +1,43 @@
+//TODO: CSS DA PAGE HOME
+
+import styled from "styled-components";
+
+export const StyledSection = styled.section`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:  100%;
+    min-height: 100vh;
+`
+
+export const Apresentacao = styled.div`
+    & h2{
+        font-size: 3rem; /*48px*/
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    & span{
+        color: var(--color-accent);
+    }
+`
+
+export const Btn = styled.button`
+    width: 15.625rem;   /* 250px */
+    height: 3.125rem;   /* 50px */
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-accent);
+    color: var(--white);
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--color-secondary);
+    }
+`
+
+export const ImgHome = styled.img`
+    height: 31.25rem;/* 500px / 1rem = 31.25 "1rem = 16px" */
+
+`

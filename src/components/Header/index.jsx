@@ -3,7 +3,7 @@ import { StylesHeader } from "./header.module.jsx";
 function Header() {
   return (
     <StylesHeader>
-      <span>pauloMiguel.dev</span>
+      <span>😎 Paulo Miguel.dev</span>
       <nav>
         <a href="#">Home</a>
         <a href="#">Sobre</a>
