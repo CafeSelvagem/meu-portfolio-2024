@@ -7,7 +7,9 @@ export const StylesHeader = styled.header`
   height: 15vh;
   width: 100%;
   background-color: var(--color-primary);
-  color: #f1f1f1;
+  color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* position: fixed; */
 
   & span {
     font-size: 1.5rem;
