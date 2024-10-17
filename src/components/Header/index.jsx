@@ -1,14 +1,17 @@
 import { StylesHeader } from "./header.module.jsx";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <StylesHeader>
-      <span>😎 Paulo Miguel.dev</span>
+      <Link to="/">
+        <span>😎 Paulo Miguel.dev</span>
+      </Link>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Sobre</a>
-        <a href="#">Projetos</a>
-        <a href="#">Contatos</a>
+        <Link to="/">Home</Link>
+        <Link to="/sobre">Sobre</Link>
+        <Link to="/projetos">Projetos</Link>
+        <Link to="/contatos">Contatos</Link>
       </nav>
     </StylesHeader>
   );

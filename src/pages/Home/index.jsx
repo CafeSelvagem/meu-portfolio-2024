@@ -4,6 +4,7 @@ import { Btn } from "../../App.module";
 import { ImgHome } from "../../App.module.jsx";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -17,7 +18,9 @@ function Home() {
             <br />
             Dev Full Stack
           </h2>
+          <Link to="/sobre">
           <Btn>Saiba Mais Sobre Mim</Btn>
+          </Link>
         </Apresentacao>
         <figure>
           <ImgHome
