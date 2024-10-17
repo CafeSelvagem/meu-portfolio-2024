@@ -26,29 +26,35 @@ Currently, two official plugins are available:
 # Estrutura de Pasta do Projeto
 Árvore de arquivos :
 ```
+├── node_modules
 ├── Public
+│    └── Favicon
 ├── src
 │   ├── assets
+│   │    └── Images 
+│   │
 │   ├── components
 │   │    ├── Footer
 │   │    └── Header
+│   │
 │   ├── pages
 │   │    ├── Contatos
 │   │    ├── Home           
 │   │    ├── Projetos
 │   │    └── Sobre
-│   │
+│   │
 │   ├── App.jsx
 │   ├── App.module.jsx
 │   ├── index.css
 │   ├── main.jsx
-│   ├── routes.jsx
-│   ├── .gitignore
-│   ├── eslint.config
-│   ├── Index.html
-│   ├──package-lock.json
-│   ├──package.json
-│   ├──vite.config.js
+│   └── routes.jsx
+│
+├── .gitignore
+├── eslint.config
+├── Index.html
+├── package-lock.json
+├── package.json
+├── vite.config.js
 
 ```
 # Comando para Execultar o Projeto
