@@ -34,6 +34,7 @@ Currently, two official plugins are available:
 │   │    └── Images 
 │   │
 │   ├── components
+│   │    ├── Container
 │   │    ├── Footer
 │   │    └── Header
 │   │
