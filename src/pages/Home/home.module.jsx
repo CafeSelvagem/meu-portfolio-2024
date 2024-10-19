@@ -8,7 +8,6 @@ export const StyledSection = styled.section`
   justify-content: space-around;
   align-items: center;
   width: 100%;
-
 `;
 
 export const Apresentacao = styled.div`
@@ -35,11 +34,13 @@ export const Apresentacao = styled.div`
   border-radius: 8px;
   background-color: var(--color-accent);
   color: var(--white);
+  
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  }
-  & button:hover {
+  
+  &:hover {
     background-color: var(--color-secondary);
+  }
   }
 `;
 

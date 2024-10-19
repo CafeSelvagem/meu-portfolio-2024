@@ -21,6 +21,7 @@ Currently, two official plugins are available:
 
 >git init --y
 
+>npm install react-icons --save
 ********************************
 
 # Estrutura de Pasta do Projeto

@@ -14,13 +14,16 @@ export const StylesHeader = styled.header`
   & span {
     font-size: 1.5rem;
     font-weight: bold;
+    &:hover {
+      color: var(--color-accent);
+    }
   }
 
   & a {
     padding: 1rem;
     text-decoration: none;
     font-size: 1.125rem;
-    color: #f1f1f1;
+    color: var(--white);
     transition: color 0.3s ease;
     &:hover {
       color: var(--color-accent);

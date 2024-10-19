@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Styled_Page404 = styled.div`
     & h1{
-    padding-top: 4.2rem
+    padding-top: 5rem
     }
 
     & div{
