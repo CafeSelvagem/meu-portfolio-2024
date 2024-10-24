@@ -29,21 +29,20 @@ Currently, two official plugins are available:
 ```
 ├── node_modules
 ├── Public
-│    └── Favicon
 ├── src
 │   ├── assets
-│   │    └── Images 
-│   │
 │   ├── components
 │   │    ├── Container
 │   │    ├── Footer
 │   │    └── Header
 │   │
 │   ├── pages
+│   │    ├── 404
 │   │    ├── Contatos
 │   │    ├── Home           
 │   │    ├── Projetos
 │   │    └── Sobre
+│   │         └── imagens            
 │   │
 │   ├── App.jsx
 │   ├── App.module.jsx
