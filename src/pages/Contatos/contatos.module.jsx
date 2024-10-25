@@ -37,6 +37,7 @@ export const StyledIcons = styled.div`
 
     &:hover {
       color: var(--color-secondary);
+      transition: all .3s ease-in-out
     }
   }
 `;

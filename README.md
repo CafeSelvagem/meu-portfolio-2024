@@ -32,6 +32,7 @@ Currently, two official plugins are available:
 ├── src
 │   ├── assets
 │   ├── components
+│   │    ├── card
 │   │    ├── Container
 │   │    ├── Footer
 │   │    └── Header

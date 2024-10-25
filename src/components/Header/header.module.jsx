@@ -16,6 +16,7 @@ export const StylesHeader = styled.header`
     font-weight: bold;
     &:hover {
       color: var(--color-accent);
+      transition: all .5s ease-in-out
     }
   }
 
@@ -27,6 +28,7 @@ export const StylesHeader = styled.header`
     transition: color 0.3s ease;
     &:hover {
       color: var(--color-accent);
+      transition: all .5s ease-in-out
     }
   }
 `;

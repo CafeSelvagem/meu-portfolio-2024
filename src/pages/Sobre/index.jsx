@@ -33,10 +33,10 @@ function Sobre() {
         <h3>Tecnologias</h3>
         <div className="cardicones">
           <FaReact alt="React" className="icone" />
-          <FaNodeJs alt="NodeJs" className="icone" />
-          <SiMysql alt="Mysql " className="icone" />
-          <SiRedux alt="Redux" className="icone" />
           <FaPython alt="Python" className="icone" />
+          <FaNodeJs alt="NodeJs" className="icone" />
+          <SiRedux alt="Redux" className="icone" />
+          <SiMysql alt="Mysql " className="icone" />
         </div>
       </div>
     </StyledSobre>
