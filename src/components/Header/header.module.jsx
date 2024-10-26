@@ -10,7 +10,6 @@ export const StylesHeader = styled.header`
   color: var(--white);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   /* position: fixed; */
-
   & span {
     font-size: 1.5rem;
     font-weight: bold;
@@ -32,3 +31,14 @@ export const StylesHeader = styled.header`
     }
   }
 `;
+
+export const Logoimg = styled.img`
+  height: 12rem;
+  
+  &:hover{
+    transform: scale(1.1);
+    color: var(--color-accent);
+    transition: all.3s ease-in-out;
+  }
+`;
+

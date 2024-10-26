@@ -1,11 +1,13 @@
 import { StylesHeader } from "./header.module.jsx";
+import { Logoimg } from "./header.module.jsx";
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <StylesHeader>
       <Link to="/">
-        <span>😎 Paulo Miguel.dev</span>
+        <Logoimg src="../../../public/logo.png" alt="logo"/>
+        {/* <span>😎 Paulo Miguel.dev</span> */}
       </Link>
       <nav>
         <Link to="/">Home</Link>

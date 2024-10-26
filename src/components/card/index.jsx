@@ -3,7 +3,6 @@ import { GrMysql } from "react-icons/gr";
 import { SiNodedotjs, SiPython, SiRedux } from "react-icons/si";
 import { StyledCard, StyledCardfooter } from "./card.module";
 import { BsArrowRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 function Card({ nome, descicao, html_url }) {
@@ -19,9 +18,14 @@ function Card({ nome, descicao, html_url }) {
           <SiRedux alt="Redux" className="icone" />
           <GrMysql alt="Mysql" className="icone" />
         </div>
-        <Link to={html_url} className="btn">
+        <a
+          href={html_url}
+          target="_blank"
+          rel="nopenner norefferer"
+          className="btn"
+        >
           <BsArrowRight />
-        </Link>
+        </a>
       </StyledCardfooter>
     </StyledCard>
   );
