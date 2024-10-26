@@ -6,9 +6,7 @@ import { BsInstagram, BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 function Cotatos() {
   return (
         <StyledContato>
-          <h2>Cotatos</h2>
-          <h3>Entre em Contato</h3>
-          <p>Para que possamos conversar mais sobre.</p>
+          <h2>Meus Contatos</h2>
           <StyledIcons>
             <a href="mailto:paulo.miguel.v2000@gmail.com" target="_blank" rel='noopener noreferrer'><CiMail className="icone"/></a>
             <a href="https://web.Whatsapp.com/send?phone=5511958424-0143" target="_blank" rel='noopener noreferrer'><BsWhatsapp className="icone"/></a>

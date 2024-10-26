@@ -61,7 +61,7 @@ export const StyledSobre = styled.section`
 
         &:hover {
           color: var(--color-secondary);
-          transition: all .5s ease-in-out
+          transition: all .5s ease-in-out;
         }
       }
     }
