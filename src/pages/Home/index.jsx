@@ -20,7 +20,7 @@ function Home() {
       </Apresentacao>
       <figure>
         <ImgHome
-          src="/public/undraw_developer_activity_re_39tg.svg"
+          src="../../../public/undraw_developer_activity_re_39tg.svg"
           alt="Image de Home"
         />
       </figure>
