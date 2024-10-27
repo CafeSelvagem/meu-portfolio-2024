@@ -2,6 +2,7 @@ import { StyledSection } from "./home.module.jsx";
 import { Apresentacao } from "./home.module.jsx";
 import { ImgHome } from "./home.module.jsx";
 import { Link } from "react-router-dom";
+import Homeimg from "./images/img2.svg"
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
       </Apresentacao>
       <figure>
         <ImgHome
-          src="./images/undraw_developer_activity_re_39tg.svg"
+          src={Homeimg}
           alt="Image de Home"
         />
       </figure>
