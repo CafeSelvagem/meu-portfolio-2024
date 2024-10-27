@@ -6,7 +6,7 @@ function Header() {
   return (
     <StylesHeader>
       <Link to="/">
-        <Logoimg src="../../../public/logo.png" alt="logo"/>
+        <Logoimg src="./images/logo.png" alt="logo"/>
         {/* <span>😎 Paulo Miguel.dev</span> */}
       </Link>
       <nav>
