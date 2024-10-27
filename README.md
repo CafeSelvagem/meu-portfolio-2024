@@ -61,3 +61,18 @@ Currently, two official plugins are available:
 ```
 # Comando para Execultar o Projeto
 >npm run dev
+
+# Para subir a aplicação
+
+Ajuste o codigo do arquivo package.json
+>  "scripts": {
+    "dev": "vite",
+    "src": "index.html",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+
+> npm run build
+
+> vercel

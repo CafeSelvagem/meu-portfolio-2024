@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "src": "index.html",
-    "build": "vite dist && comando_de_build --output-path dist", 
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
