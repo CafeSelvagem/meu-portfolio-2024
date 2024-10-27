@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "src": "index.html",
     "build": "vite dist && comando_de_build --output-path dist", 
     "lint": "eslint .",
     "preview": "vite preview"
