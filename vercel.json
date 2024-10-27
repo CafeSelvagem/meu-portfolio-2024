@@ -9,10 +9,5 @@
       }
     }
   ],
-  "optimizeDeps": {
-    "include": [
-      "react",
-      "react-dom"
-    ]
-  }
+  "buildCommand": "next build"
 }
