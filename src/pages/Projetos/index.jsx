@@ -27,7 +27,7 @@ function Projetos() {
               <Card
                 key={repo.id}
                 nome={repo.nome}
-                descicao={repo.descicao}
+                description={repo.descicao}
                 html_url={repo.html_url}
               />
             ))}

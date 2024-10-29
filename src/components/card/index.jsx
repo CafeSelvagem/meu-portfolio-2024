@@ -5,11 +5,11 @@ import { StyledCard, StyledCardfooter } from "./card.module";
 import { BsArrowRight } from "react-icons/bs";
 
 // eslint-disable-next-line react/prop-types
-function Card({ nome, descicao, html_url }) {
+function Card({ nome, description, html_url }) {
   return (
     <StyledCard>
       <h3>{nome}</h3>
-      <p>{descicao}</p>
+      <p>{description}</p>
       <StyledCardfooter>
         <div className="card_icones">
           <SiCreatereactapp alt="React" className="icone" />

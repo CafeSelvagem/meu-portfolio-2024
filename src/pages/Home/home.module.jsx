@@ -8,6 +8,7 @@ export const StyledSection = styled.section`
   justify-content: space-around;
   align-items: center;
   width: 100%;
+background-color: var(--red)
 `;
 
 export const Apresentacao = styled.div`
@@ -47,5 +48,5 @@ export const Apresentacao = styled.div`
 
 export const ImgHome = styled.img`
   height: 32.25rem; /* 500px / 1rem = 31.25 "1rem = 16px" */
-  filter: drop-shadow(0px 14px 28px rgba(0, 0, 0, 0.35));
+  filter: drop-shadow(0px 14px 28px rgba(0, 0, 0, 0.25));
 `;
