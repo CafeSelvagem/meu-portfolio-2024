@@ -15,7 +15,7 @@ function Sobre() {
           <p>Sou <span>Paulo Miguel</span>, tenho 24 anos 👋</p>
           <p><strong>Desenvolvedor Full-Stack</strong></p>
           <p>
-          Atuando na agência de inovação <strong>AGO7.</strong> Tenho experiência em diversas tecnologias, incluindo JavaScript, React, Node.js, MySQL, Python, e Redux .Recentemente, tem focado no aprimoramento as minhas habilidades em automação de processos com Python, consolidando minha experiencia em soluções inovadoras para resolução de problemas.
+          Atuando na agência de inovação <strong>AGO7.</strong> Tenho experiência em diversas tecnologias, incluindo JavaScript, React, Node.js, MySQL, Python e Redux. Recentemente, tem focado no aprimoramento as minhas habilidades em automação de processos com Python, consolidando minha experiencia em soluções inovadoras para resolução de problemas.
           </p>
           <br />
           <p>
