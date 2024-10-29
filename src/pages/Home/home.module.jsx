@@ -8,7 +8,7 @@ export const StyledSection = styled.section`
   justify-content: space-around;
   align-items: center;
   width: 100%;
-background-color: var(--red)
+
 `;
 
 export const Apresentacao = styled.div`

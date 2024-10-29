@@ -33,7 +33,7 @@ export const StylesHeader = styled.header`
 `;
 
 export const Logoimg = styled.img`
-  height: 12rem;
+  height: 7.5rem;
   
   &:hover{
     transform: scale(1.1);
